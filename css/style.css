@@ -1,0 +1,51 @@
+@import url("base.css");
+@import url("box.css");
+@import url("button.css");
+@import url("form.css");
+@import url("table.css");
+@import url("pagination.css");
+
+#result-box {
+    margin: 0 0 10px 0;
+}
+
+#add-friend-img{
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.error-text{
+    color: red;
+}
+
+.success-text{
+    color: green;
+}
+
+/*  Disable textarea resizing. */
+textarea {
+    resize: none;
+}
+
+/* Tables */
+#friend-table {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#account-table {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*--------------------------------------------------------------
+CSS Grid layout:
+--------------------------------------------------------------*/
+@supports (display: grid) {
+    @media screen {}
+
+    @media screen and (min-width: 767px) {}
+
+    @media screen and (min-width: 1200px) {}
+}

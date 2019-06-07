@@ -1,0 +1,30 @@
+.table {
+    border-top: 1px solid #028090;
+    border-right: 1px solid #028090;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0.5em 0;
+}
+
+.table-item {
+    border-left: 1px solid #028090;
+    border-bottom: 1px solid #028090;
+    font-size: small;
+    padding: 0.25em 0.5em;
+}
+
+.table-row {
+    display: contents;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-row:hover .table-item {
+    background-color: #f0f3bd;
+}
+
+.table-item.pending {
+    font-weight: bold;
+}
