@@ -2,4 +2,4 @@
 
 A pure PHP website made for COS30020 assignment 2.
 
-Evidence of a horrible language coupled with horrible programming.
+When a horrible language meets horrible programming.
